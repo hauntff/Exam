@@ -12,7 +12,7 @@ namespace Exam.Models
         public int Song_ID { get; set; }
         public int Track_Number { get; set; }
         public virtual Album IdAlbumNavigation { get; set; }
-        public virtual Album IdSongNavigation { get; set; }
+        public virtual Song IdSongNavigation { get; set; }
 
     }
 }

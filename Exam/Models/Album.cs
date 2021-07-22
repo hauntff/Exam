@@ -18,7 +18,7 @@ namespace Exam.Models
         public DateTime Album_Year { get; set; }
         public string Tracks { get; set; }
         public virtual ICollection<Album_song> Albums_Songs { get; set; }
-        public virtual Album IdArtistNavigation { get; set; }
+        public virtual Artist IdArtistNavigation { get; set; }
 
 
     }

@@ -13,6 +13,6 @@ namespace Exam.Models
         public string First_Name { get; set; }
         public DateTime Birthday { get; set; }
         public string Sex { get; set; }
-        public virtual Album IdArtistNavigation { get; set; }
+        public virtual Artist IdArtistNavigation { get; set; }
     }
 }

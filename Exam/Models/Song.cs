@@ -14,6 +14,7 @@ namespace Exam.Models
         }
         public int Song_ID { get; set; }
         public string Song_Title { get; set; }
+        public int Song_Duration { get; set; }
         public virtual ICollection<Album_song> Albums_Songs { get; set; }
     }
 }
